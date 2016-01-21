@@ -1,0 +1,17 @@
+{
+  "name": "Goto Top",
+  "description": "返回页面顶部",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["gototop.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "返回页面顶部"
+  },
+  "manifest_version": 2
+}
